@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/vh-vw/vh-vw",
+    "pages/detail/detail",
+    "pages/list/list",
+    "pages/message/message",
+    "pages/mine/mine",
+    "pages/contact/contact"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#3a6842",
+    "navigationBarTitleText": "本地生活",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/home/home",
+      "text": "主页",
+      "iconPath": "./assets/tabs/home.png",
+      "selectedIconPath": "./assets/tabs/home-active.png"
+    },
+    {
+      "pagePath": "pages/message/message",
+      "text": "消息",
+      "iconPath": "./assets/tabs/message.png",
+      "selectedIconPath": "./assets/tabs/message-active.png"
+    },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "./assets/tabs/profile.png",
+        "selectedIconPath": "./assets/tabs/profile-active.png"
+      },
+        {
+          "pagePath": "pages/contact/contact",
+          "text": "联系我们",
+          "iconPath": "./assets/tabs/contact.png",
+          "selectedIconPath": "./assets/tabs/contact-active.png"
+        }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

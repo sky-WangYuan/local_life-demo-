@@ -1,0 +1,8 @@
+/* pages/vh-vw/vh-vw.wxss */
+page {
+  height: 100%;
+}
+view {
+  height:calc(100vh - 50px);
+  background:var(--baseColor);
+}
